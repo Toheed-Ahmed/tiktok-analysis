@@ -37,7 +37,6 @@ This project analyzes a **simulated TikTok video dataset** to understand the rel
 | **Python**                          | Data analysis and scripting             |
 | **Pandas**                          | Data manipulation & aggregation         |
 | **Jupyter Notebook**                | Interactive exploration & documentation |
-| **Matplotlib/Seaborn**              | Data visualization                      |
 | **Exploratory Data Analysis (EDA)** | Pattern discovery                       |
 
 ---
@@ -102,8 +101,7 @@ This project analyzes a **simulated TikTok video dataset** to understand the rel
 ```python
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 # Load the dataset
 df = pd.read_csv("tiktok_dataset.csv")
@@ -288,7 +286,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 ### 3. Run the Notebook
 
 ```bash
-jupyter notebook "Exemplar_Course 2 TikTok project lab.ipynb"
+jupyter notebook "TikTok project lab.ipynb"
 ```
 
 ### 4. Explore the Analysis
